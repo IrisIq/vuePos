@@ -1,5 +1,8 @@
 <template>
-  <div class="pos">hello AwesomePose Demo123123</div>
+  <div class="pos">
+    <i class="icon iconfont icon-dianpu"></i>
+    <i class="icon iconfont icon-shezhi"></i>
+  </div>
 </template>
 
 <script>
