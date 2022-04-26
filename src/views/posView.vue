@@ -1,11 +1,16 @@
 <template>
   <div class="pos">
-    <div class="main">123</div>
+    <div class="main"></div>
+    <posRmb />
   </div>
 </template>
 
 <script>
-export default {};
+import posRmb from "@/components/page/posGp.vue";
+
+export default {
+  components: { posRmb },
+};
 </script>
 
 <style>
