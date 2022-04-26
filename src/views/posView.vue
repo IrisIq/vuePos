@@ -1,16 +1,19 @@
 <template>
   <div class="pos">
-    <i class="icon iconfont icon-dianpu"></i>
-    <i class="icon iconfont icon-shezhi"></i>
-    <leftNav />
+    <div class="main">123</div>
   </div>
 </template>
 
 <script>
-import leftNav from "@/components/common/leftNav.vue";
-export default {
-  components: { leftNav },
-};
+export default {};
 </script>
 
-<style></style>
+<style>
+.main {
+  float: left;
+  width: 95%;
+  height: 100%;
+  background-color: #20a6dc;
+  overflow: hidden;
+}
+</style>
